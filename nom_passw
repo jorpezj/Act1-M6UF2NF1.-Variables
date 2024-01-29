@@ -1,0 +1,7 @@
+#!/bin/bash
+#Preguntant al usuari pel seu nom i la seva contrasenya; admés guardem les variables amb l'ordre read 
+read -p 'Nom usuari: ' user
+read -sp 'Password: ' passwd
+echo
+#Mostrem les dades recollides
+echo Nom usuari: $user Password: $passwd
