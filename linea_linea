@@ -1,0 +1,6 @@
+#!/bin/bash
+#Fem un bucle amb un for on mostrarem els arguments passats per a l'usuari, un per un
+for argument in $@
+do 
+	echo $argument
+done
