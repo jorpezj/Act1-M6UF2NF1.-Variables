@@ -1,0 +1,4 @@
+#!/bin/bash
+#Printar els arguments en la mateixa linea
+echo $*
+
