@@ -1,0 +1,39 @@
+#!/bin/bash
+# Mostrar el shell actual
+echo $SHELL
+
+# Identificar la pantalla 
+echo $DISPLAY
+
+# Mostrar el nom complert del directori d'inici de sessió
+echo $HOME
+
+# Mostrar la ruta de cerca d'ordres
+echo $PATH
+
+# Mostrar la ruta de cerca per a pàgines man
+echo $MANPATH
+
+# Mostrar el nom d'inici de sessió
+echo $USER
+
+#Mostrar el tipus de terminal
+echo $TERM
+
+# Mostrar el directori de treball actual
+echo $PWD
+
+#Mostrar el PID del Shell actual
+echo $$
+
+#Mostrar el valor retornat per la darrera funció o comanda.
+echo $?
+
+#Mostrar el ID del procés de la darrera funció o comanda.
+echo $!
+
+#Mostrar el nom del script bash
+echo $0
+
+#Mostrar tots els arguments del script bash
+echo $*
